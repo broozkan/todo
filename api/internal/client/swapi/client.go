@@ -30,6 +30,6 @@ func NewSwapiClient(url string) *Swapi {
 	}
 }
 
-func (s *Swapi) GetStarshipDetails(starshipName string) (string, error) {
+func (s *Swapi) GetStarshipDetails(starshipName string) (*StarshipDetailResponse, error) {
 	panic("implement me")
 }
